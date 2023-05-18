@@ -1,0 +1,49 @@
+irun(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s051: Started on Feb 15, 2023 at 11:49:57 IST
+irun
+	-access +rwc
+	t_pipe_ex2.v
+Recompiling... reason: file './t_pipe_ex2.v' is newer than expected.
+	expected: Wed Feb 15 11:52:22 2023
+	actual:   Wed Feb 15 12:07:01 2023
+file: t_pipe_ex2.v
+	module worklib.pipe_ex2:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		t_pipe_ex2
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.pipe_ex2:v <0x4d4399ea>
+			streams:  16, words:  9826
+		worklib.t_pipe_ex2:v <0x64f819c0>
+			streams:  13, words: 15273
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		              Instances  Unique
+		Modules:              2       2
+		Registers:           20      20
+		Scalar wires:         2       -
+		Vectored wires:       6       -
+		Always blocks:        4       4
+		Initial blocks:       4       4
+		Cont. assignments:    0       1
+		Pseudo assignments:   7       7
+	Writing initial simulation snapshot: worklib.t_pipe_ex2:v
+Loading snapshot worklib.t_pipe_ex2:v .................... Done
+ncsim> source /cad_area/install/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> run
+time:   0, F=   x
+time:  27, F=   8
+time:  47, F=  24
+time:  67, F=   2
+time:  87, F=   6
+time: 107, F=   2
+time: 127, F=   9
+mem[131] =   x
+Simulation complete via $finish(1) at time 300 NS + 0
+./t_pipe_ex2.v:45 	#300 $finish;
+ncsim> exit
+TOOL:	irun(64)	15.20-s051: Exiting on Feb 15, 2023 at 11:49:58 IST  (total: 00:00:01)
