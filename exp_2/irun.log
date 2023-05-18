@@ -1,0 +1,299 @@
+irun(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s051: Started on Apr 13, 2023 at 10:11:09 IST
+irun
+	-access +rwc
+	t_a.v
+INCLUDE $GF_PDK_HOME/DesignEnv/VirtuosoOA/setup/superstack.cds.lib
+|
+irun: *W,DLCVAR (../cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE CALIBRE_HOME     /cad_area/vlsi/tools/MENTOR/calibre/aoi_cal_2018.2_41.34
+|
+irun: *W,DLCPTH (../cds.lib,13): cds.lib Invalid path '/cad_area/vlsi/tools/MENTOR/calibre/aoi_cal_2018.2_41.34' (cds.lib command ignored).
+DEFINE UMC_18_CMOS /cad_area/install/pdk/Cadence_PDK/UMC180FDK/Cadence_IC6/G-9FD-MIXED_MODE_RFCMOS18-1.8V_3.3V-1P6M-MMC_UM180FDKMFC00000OA-FDK-Ver.A02_PB.zip_FILES/UM180FDKMFC00000OA_A02_DESIGNKIT.tar.gz_FILES/UM180FDKMFC00000OA_A02_PB.tar.gz_FILES/UMC_18_CMOS/
+|
+irun: *W,DLCLAP (../cds.lib,28): cds.lib Same file has different definitions for library 'library UMC_18_CMOS from /home/01FE20BEC279/cds.lib line 28, redefines
+    library UMC_18_CMOS from same file line 27 defined earlier.' (continuing with last specified path).
+DEFINE UMC180Faraday    /cad_area/install/pdk/UMC/UMC180Faraday
+|
+irun: *W,DLCPTH (../cds.lib,34): cds.lib Invalid path '/cad_area/install/pdk/UMC/UMC180Faraday' (cds.lib command ignored).
+DEFINE UMC180Faraday    /cad_area/install/pdk/UMC/UMC180Faraday/fsa0m_a/2008Q3v1.2/50VT_GENERIC_IO/BackEnd/lef
+|
+irun: *W,DLCPTH (../cds.lib,35): cds.lib Invalid path '/cad_area/install/pdk/UMC/UMC180Faraday/fsa0m_a/2008Q3v1.2/50VT_GENERIC_IO/BackEnd/lef' (cds.lib command ignored).
+DEFINE FSA0M_A_50VT_GENERIC_IO /cad_area/install/pdk/UMC/UMC180Faraday/fsa0m_a/2008Q3v1.2/50VT_GENERIC_IO/FrontEnd/composer/FSA0M_A_50VT_GENERIC_IO
+|
+irun: *W,DLCPTH (../cds.lib,37): cds.lib Invalid path '/cad_area/install/pdk/UMC/UMC180Faraday/fsa0m_a/2008Q3v1.2/50VT_GENERIC_IO/FrontEnd/composer/FSA0M_A_50VT_GENERIC_IO' (cds.lib command ignored).
+DEFINE asap7_TechLib $PDK_DIR/cdslib/asap7_TechLib
+|
+irun: *W,DLCVAR (../cds.lib,42): cds.lib Invalid environment variable ''.
+DEFINE asap7ssc7p5t $PDK_DIR/asap7ssc7p5t_05
+|
+irun: *W,DLCVAR (../cds.lib,67): cds.lib Invalid environment variable ''.
+DEFINE 01FE20bec279 /home/01FE20BEC279/01FE20bec279
+|
+irun: *W,DLCPTH (../cds.lib,72): cds.lib Invalid path '/home/01FE20BEC279/01FE20bec279' (cds.lib command ignored).
+DEFINE 01fe20bec279 /home/01FE20BEC279/01fe20bec279
+|
+irun: *W,DLCLAP (../cds.lib,73): cds.lib Same file has different definitions for library 'library 01fe20bec279 from /home/01FE20BEC279/cds.lib line 73, redefines
+    library 01fe20bec279 from same file line 71 defined earlier.' (continuing with last specified path).
+DEFINE 01fe20bec279 /home/01FE20BEC279/01fe20bec279
+|
+irun: *W,DLCLAP (../cds.lib,74): cds.lib Same file has different definitions for library 'library 01fe20bec279 from /home/01FE20BEC279/cds.lib line 74, redefines
+    library 01fe20bec279 from same file line 73 defined earlier.' (continuing with last specified path).
+DEFINE 01fe20bec279 /home/01FE20BEC279/01fe20bec279
+|
+irun: *W,DLCLAP (../cds.lib,75): cds.lib Same file has different definitions for library 'library 01fe20bec279 from /home/01FE20BEC279/cds.lib line 75, redefines
+    library 01fe20bec279 from same file line 74 defined earlier.' (continuing with last specified path).
+INCLUDE $GF_PDK_HOME/DesignEnv/VirtuosoOA/setup/superstack.cds.lib
+|
+irun: *W,DLCVAR (../cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE CALIBRE_HOME     /cad_area/vlsi/tools/MENTOR/calibre/aoi_cal_2018.2_41.34
+|
+irun: *W,DLCPTH (../cds.lib,13): cds.lib Invalid path '/cad_area/vlsi/tools/MENTOR/calibre/aoi_cal_2018.2_41.34' (cds.lib command ignored).
+DEFINE UMC_18_CMOS /cad_area/install/pdk/Cadence_PDK/UMC180FDK/Cadence_IC6/G-9FD-MIXED_MODE_RFCMOS18-1.8V_3.3V-1P6M-MMC_UM180FDKMFC00000OA-FDK-Ver.A02_PB.zip_FILES/UM180FDKMFC00000OA_A02_DESIGNKIT.tar.gz_FILES/UM180FDKMFC00000OA_A02_PB.tar.gz_FILES/UMC_18_CMOS/
+|
+irun: *W,DLCLAP (../cds.lib,28): cds.lib Same file has different definitions for library 'library UMC_18_CMOS from /home/01FE20BEC279/cds.lib line 28, redefines
+    library UMC_18_CMOS from same file line 27 defined earlier.' (continuing with last specified path).
+DEFINE UMC180Faraday    /cad_area/install/pdk/UMC/UMC180Faraday
+|
+irun: *W,DLCPTH (../cds.lib,34): cds.lib Invalid path '/cad_area/install/pdk/UMC/UMC180Faraday' (cds.lib command ignored).
+DEFINE UMC180Faraday    /cad_area/install/pdk/UMC/UMC180Faraday/fsa0m_a/2008Q3v1.2/50VT_GENERIC_IO/BackEnd/lef
+|
+irun: *W,DLCPTH (../cds.lib,35): cds.lib Invalid path '/cad_area/install/pdk/UMC/UMC180Faraday/fsa0m_a/2008Q3v1.2/50VT_GENERIC_IO/BackEnd/lef' (cds.lib command ignored).
+DEFINE FSA0M_A_50VT_GENERIC_IO /cad_area/install/pdk/UMC/UMC180Faraday/fsa0m_a/2008Q3v1.2/50VT_GENERIC_IO/FrontEnd/composer/FSA0M_A_50VT_GENERIC_IO
+|
+irun: *W,DLCPTH (../cds.lib,37): cds.lib Invalid path '/cad_area/install/pdk/UMC/UMC180Faraday/fsa0m_a/2008Q3v1.2/50VT_GENERIC_IO/FrontEnd/composer/FSA0M_A_50VT_GENERIC_IO' (cds.lib command ignored).
+DEFINE asap7_TechLib $PDK_DIR/cdslib/asap7_TechLib
+|
+irun: *W,DLCVAR (../cds.lib,42): cds.lib Invalid environment variable ''.
+DEFINE asap7ssc7p5t $PDK_DIR/asap7ssc7p5t_05
+|
+irun: *W,DLCVAR (../cds.lib,67): cds.lib Invalid environment variable ''.
+DEFINE 01FE20bec279 /home/01FE20BEC279/01FE20bec279
+|
+irun: *W,DLCPTH (../cds.lib,72): cds.lib Invalid path '/home/01FE20BEC279/01FE20bec279' (cds.lib command ignored).
+DEFINE 01fe20bec279 /home/01FE20BEC279/01fe20bec279
+|
+irun: *W,DLCLAP (../cds.lib,73): cds.lib Same file has different definitions for library 'library 01fe20bec279 from /home/01FE20BEC279/cds.lib line 73, redefines
+    library 01fe20bec279 from same file line 71 defined earlier.' (continuing with last specified path).
+DEFINE 01fe20bec279 /home/01FE20BEC279/01fe20bec279
+|
+irun: *W,DLCLAP (../cds.lib,74): cds.lib Same file has different definitions for library 'library 01fe20bec279 from /home/01FE20BEC279/cds.lib line 74, redefines
+    library 01fe20bec279 from same file line 73 defined earlier.' (continuing with last specified path).
+DEFINE 01fe20bec279 /home/01FE20BEC279/01fe20bec279
+|
+irun: *W,DLCLAP (../cds.lib,75): cds.lib Same file has different definitions for library 'library 01fe20bec279 from /home/01FE20BEC279/cds.lib line 75, redefines
+    library 01fe20bec279 from same file line 74 defined earlier.' (continuing with last specified path).
+INCLUDE $GF_PDK_HOME/DesignEnv/VirtuosoOA/setup/superstack.cds.lib
+|
+irun: *W,DLCVAR (../cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE CALIBRE_HOME     /cad_area/vlsi/tools/MENTOR/calibre/aoi_cal_2018.2_41.34
+|
+irun: *W,DLCPTH (../cds.lib,13): cds.lib Invalid path '/cad_area/vlsi/tools/MENTOR/calibre/aoi_cal_2018.2_41.34' (cds.lib command ignored).
+DEFINE UMC_18_CMOS /cad_area/install/pdk/Cadence_PDK/UMC180FDK/Cadence_IC6/G-9FD-MIXED_MODE_RFCMOS18-1.8V_3.3V-1P6M-MMC_UM180FDKMFC00000OA-FDK-Ver.A02_PB.zip_FILES/UM180FDKMFC00000OA_A02_DESIGNKIT.tar.gz_FILES/UM180FDKMFC00000OA_A02_PB.tar.gz_FILES/UMC_18_CMOS/
+|
+irun: *W,DLCLAP (../cds.lib,28): cds.lib Same file has different definitions for library 'library UMC_18_CMOS from /home/01FE20BEC279/cds.lib line 28, redefines
+    library UMC_18_CMOS from same file line 27 defined earlier.' (continuing with last specified path).
+DEFINE UMC180Faraday    /cad_area/install/pdk/UMC/UMC180Faraday
+|
+irun: *W,DLCPTH (../cds.lib,34): cds.lib Invalid path '/cad_area/install/pdk/UMC/UMC180Faraday' (cds.lib command ignored).
+DEFINE UMC180Faraday    /cad_area/install/pdk/UMC/UMC180Faraday/fsa0m_a/2008Q3v1.2/50VT_GENERIC_IO/BackEnd/lef
+|
+irun: *W,DLCPTH (../cds.lib,35): cds.lib Invalid path '/cad_area/install/pdk/UMC/UMC180Faraday/fsa0m_a/2008Q3v1.2/50VT_GENERIC_IO/BackEnd/lef' (cds.lib command ignored).
+DEFINE FSA0M_A_50VT_GENERIC_IO /cad_area/install/pdk/UMC/UMC180Faraday/fsa0m_a/2008Q3v1.2/50VT_GENERIC_IO/FrontEnd/composer/FSA0M_A_50VT_GENERIC_IO
+|
+irun: *W,DLCPTH (../cds.lib,37): cds.lib Invalid path '/cad_area/install/pdk/UMC/UMC180Faraday/fsa0m_a/2008Q3v1.2/50VT_GENERIC_IO/FrontEnd/composer/FSA0M_A_50VT_GENERIC_IO' (cds.lib command ignored).
+DEFINE asap7_TechLib $PDK_DIR/cdslib/asap7_TechLib
+|
+irun: *W,DLCVAR (../cds.lib,42): cds.lib Invalid environment variable ''.
+DEFINE asap7ssc7p5t $PDK_DIR/asap7ssc7p5t_05
+|
+irun: *W,DLCVAR (../cds.lib,67): cds.lib Invalid environment variable ''.
+DEFINE 01FE20bec279 /home/01FE20BEC279/01FE20bec279
+|
+irun: *W,DLCPTH (../cds.lib,72): cds.lib Invalid path '/home/01FE20BEC279/01FE20bec279' (cds.lib command ignored).
+DEFINE 01fe20bec279 /home/01FE20BEC279/01fe20bec279
+|
+irun: *W,DLCLAP (../cds.lib,73): cds.lib Same file has different definitions for library 'library 01fe20bec279 from /home/01FE20BEC279/cds.lib line 73, redefines
+    library 01fe20bec279 from same file line 71 defined earlier.' (continuing with last specified path).
+DEFINE 01fe20bec279 /home/01FE20BEC279/01fe20bec279
+|
+irun: *W,DLCLAP (../cds.lib,74): cds.lib Same file has different definitions for library 'library 01fe20bec279 from /home/01FE20BEC279/cds.lib line 74, redefines
+    library 01fe20bec279 from same file line 73 defined earlier.' (continuing with last specified path).
+DEFINE 01fe20bec279 /home/01FE20BEC279/01fe20bec279
+|
+irun: *W,DLCLAP (../cds.lib,75): cds.lib Same file has different definitions for library 'library 01fe20bec279 from /home/01FE20BEC279/cds.lib line 75, redefines
+    library 01fe20bec279 from same file line 74 defined earlier.' (continuing with last specified path).
+INCLUDE $GF_PDK_HOME/DesignEnv/VirtuosoOA/setup/superstack.cds.lib
+|
+irun: *W,DLCVAR (../cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE CALIBRE_HOME     /cad_area/vlsi/tools/MENTOR/calibre/aoi_cal_2018.2_41.34
+|
+irun: *W,DLCPTH (../cds.lib,13): cds.lib Invalid path '/cad_area/vlsi/tools/MENTOR/calibre/aoi_cal_2018.2_41.34' (cds.lib command ignored).
+DEFINE UMC_18_CMOS /cad_area/install/pdk/Cadence_PDK/UMC180FDK/Cadence_IC6/G-9FD-MIXED_MODE_RFCMOS18-1.8V_3.3V-1P6M-MMC_UM180FDKMFC00000OA-FDK-Ver.A02_PB.zip_FILES/UM180FDKMFC00000OA_A02_DESIGNKIT.tar.gz_FILES/UM180FDKMFC00000OA_A02_PB.tar.gz_FILES/UMC_18_CMOS/
+|
+irun: *W,DLCLAP (../cds.lib,28): cds.lib Same file has different definitions for library 'library UMC_18_CMOS from /home/01FE20BEC279/cds.lib line 28, redefines
+    library UMC_18_CMOS from same file line 27 defined earlier.' (continuing with last specified path).
+DEFINE UMC180Faraday    /cad_area/install/pdk/UMC/UMC180Faraday
+|
+irun: *W,DLCPTH (../cds.lib,34): cds.lib Invalid path '/cad_area/install/pdk/UMC/UMC180Faraday' (cds.lib command ignored).
+DEFINE UMC180Faraday    /cad_area/install/pdk/UMC/UMC180Faraday/fsa0m_a/2008Q3v1.2/50VT_GENERIC_IO/BackEnd/lef
+|
+irun: *W,DLCPTH (../cds.lib,35): cds.lib Invalid path '/cad_area/install/pdk/UMC/UMC180Faraday/fsa0m_a/2008Q3v1.2/50VT_GENERIC_IO/BackEnd/lef' (cds.lib command ignored).
+DEFINE FSA0M_A_50VT_GENERIC_IO /cad_area/install/pdk/UMC/UMC180Faraday/fsa0m_a/2008Q3v1.2/50VT_GENERIC_IO/FrontEnd/composer/FSA0M_A_50VT_GENERIC_IO
+|
+irun: *W,DLCPTH (../cds.lib,37): cds.lib Invalid path '/cad_area/install/pdk/UMC/UMC180Faraday/fsa0m_a/2008Q3v1.2/50VT_GENERIC_IO/FrontEnd/composer/FSA0M_A_50VT_GENERIC_IO' (cds.lib command ignored).
+DEFINE asap7_TechLib $PDK_DIR/cdslib/asap7_TechLib
+|
+irun: *W,DLCVAR (../cds.lib,42): cds.lib Invalid environment variable ''.
+DEFINE asap7ssc7p5t $PDK_DIR/asap7ssc7p5t_05
+|
+irun: *W,DLCVAR (../cds.lib,67): cds.lib Invalid environment variable ''.
+DEFINE 01FE20bec279 /home/01FE20BEC279/01FE20bec279
+|
+irun: *W,DLCPTH (../cds.lib,72): cds.lib Invalid path '/home/01FE20BEC279/01FE20bec279' (cds.lib command ignored).
+DEFINE 01fe20bec279 /home/01FE20BEC279/01fe20bec279
+|
+irun: *W,DLCLAP (../cds.lib,73): cds.lib Same file has different definitions for library 'library 01fe20bec279 from /home/01FE20BEC279/cds.lib line 73, redefines
+    library 01fe20bec279 from same file line 71 defined earlier.' (continuing with last specified path).
+DEFINE 01fe20bec279 /home/01FE20BEC279/01fe20bec279
+|
+irun: *W,DLCLAP (../cds.lib,74): cds.lib Same file has different definitions for library 'library 01fe20bec279 from /home/01FE20BEC279/cds.lib line 74, redefines
+    library 01fe20bec279 from same file line 73 defined earlier.' (continuing with last specified path).
+DEFINE 01fe20bec279 /home/01FE20BEC279/01fe20bec279
+|
+irun: *W,DLCLAP (../cds.lib,75): cds.lib Same file has different definitions for library 'library 01fe20bec279 from /home/01FE20BEC279/cds.lib line 75, redefines
+    library 01fe20bec279 from same file line 74 defined earlier.' (continuing with last specified path).
+INCLUDE $GF_PDK_HOME/DesignEnv/VirtuosoOA/setup/superstack.cds.lib
+|
+irun: *W,DLCVAR (../cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE CALIBRE_HOME     /cad_area/vlsi/tools/MENTOR/calibre/aoi_cal_2018.2_41.34
+|
+irun: *W,DLCPTH (../cds.lib,13): cds.lib Invalid path '/cad_area/vlsi/tools/MENTOR/calibre/aoi_cal_2018.2_41.34' (cds.lib command ignored).
+DEFINE UMC_18_CMOS /cad_area/install/pdk/Cadence_PDK/UMC180FDK/Cadence_IC6/G-9FD-MIXED_MODE_RFCMOS18-1.8V_3.3V-1P6M-MMC_UM180FDKMFC00000OA-FDK-Ver.A02_PB.zip_FILES/UM180FDKMFC00000OA_A02_DESIGNKIT.tar.gz_FILES/UM180FDKMFC00000OA_A02_PB.tar.gz_FILES/UMC_18_CMOS/
+|
+irun: *W,DLCLAP (../cds.lib,28): cds.lib Same file has different definitions for library 'library UMC_18_CMOS from /home/01FE20BEC279/cds.lib line 28, redefines
+    library UMC_18_CMOS from same file line 27 defined earlier.' (continuing with last specified path).
+DEFINE UMC180Faraday    /cad_area/install/pdk/UMC/UMC180Faraday
+|
+irun: *W,DLCPTH (../cds.lib,34): cds.lib Invalid path '/cad_area/install/pdk/UMC/UMC180Faraday' (cds.lib command ignored).
+DEFINE UMC180Faraday    /cad_area/install/pdk/UMC/UMC180Faraday/fsa0m_a/2008Q3v1.2/50VT_GENERIC_IO/BackEnd/lef
+|
+irun: *W,DLCPTH (../cds.lib,35): cds.lib Invalid path '/cad_area/install/pdk/UMC/UMC180Faraday/fsa0m_a/2008Q3v1.2/50VT_GENERIC_IO/BackEnd/lef' (cds.lib command ignored).
+DEFINE FSA0M_A_50VT_GENERIC_IO /cad_area/install/pdk/UMC/UMC180Faraday/fsa0m_a/2008Q3v1.2/50VT_GENERIC_IO/FrontEnd/composer/FSA0M_A_50VT_GENERIC_IO
+|
+irun: *W,DLCPTH (../cds.lib,37): cds.lib Invalid path '/cad_area/install/pdk/UMC/UMC180Faraday/fsa0m_a/2008Q3v1.2/50VT_GENERIC_IO/FrontEnd/composer/FSA0M_A_50VT_GENERIC_IO' (cds.lib command ignored).
+DEFINE asap7_TechLib $PDK_DIR/cdslib/asap7_TechLib
+|
+irun: *W,DLCVAR (../cds.lib,42): cds.lib Invalid environment variable ''.
+DEFINE asap7ssc7p5t $PDK_DIR/asap7ssc7p5t_05
+|
+irun: *W,DLCVAR (../cds.lib,67): cds.lib Invalid environment variable ''.
+DEFINE 01FE20bec279 /home/01FE20BEC279/01FE20bec279
+|
+irun: *W,DLCPTH (../cds.lib,72): cds.lib Invalid path '/home/01FE20BEC279/01FE20bec279' (cds.lib command ignored).
+DEFINE 01fe20bec279 /home/01FE20BEC279/01fe20bec279
+|
+irun: *W,DLCLAP (../cds.lib,73): cds.lib Same file has different definitions for library 'library 01fe20bec279 from /home/01FE20BEC279/cds.lib line 73, redefines
+    library 01fe20bec279 from same file line 71 defined earlier.' (continuing with last specified path).
+DEFINE 01fe20bec279 /home/01FE20BEC279/01fe20bec279
+|
+irun: *W,DLCLAP (../cds.lib,74): cds.lib Same file has different definitions for library 'library 01fe20bec279 from /home/01FE20BEC279/cds.lib line 74, redefines
+    library 01fe20bec279 from same file line 73 defined earlier.' (continuing with last specified path).
+DEFINE 01fe20bec279 /home/01FE20BEC279/01fe20bec279
+|
+irun: *W,DLCLAP (../cds.lib,75): cds.lib Same file has different definitions for library 'library 01fe20bec279 from /home/01FE20BEC279/cds.lib line 75, redefines
+    library 01fe20bec279 from same file line 74 defined earlier.' (continuing with last specified path).
+INCLUDE $GF_PDK_HOME/DesignEnv/VirtuosoOA/setup/superstack.cds.lib
+|
+irun: *W,DLCVAR (../cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE CALIBRE_HOME     /cad_area/vlsi/tools/MENTOR/calibre/aoi_cal_2018.2_41.34
+|
+irun: *W,DLCPTH (../cds.lib,13): cds.lib Invalid path '/cad_area/vlsi/tools/MENTOR/calibre/aoi_cal_2018.2_41.34' (cds.lib command ignored).
+DEFINE UMC_18_CMOS /cad_area/install/pdk/Cadence_PDK/UMC180FDK/Cadence_IC6/G-9FD-MIXED_MODE_RFCMOS18-1.8V_3.3V-1P6M-MMC_UM180FDKMFC00000OA-FDK-Ver.A02_PB.zip_FILES/UM180FDKMFC00000OA_A02_DESIGNKIT.tar.gz_FILES/UM180FDKMFC00000OA_A02_PB.tar.gz_FILES/UMC_18_CMOS/
+|
+irun: *W,DLCLAP (../cds.lib,28): cds.lib Same file has different definitions for library 'library UMC_18_CMOS from /home/01FE20BEC279/cds.lib line 28, redefines
+    library UMC_18_CMOS from same file line 27 defined earlier.' (continuing with last specified path).
+DEFINE UMC180Faraday    /cad_area/install/pdk/UMC/UMC180Faraday
+|
+irun: *W,DLCPTH (../cds.lib,34): cds.lib Invalid path '/cad_area/install/pdk/UMC/UMC180Faraday' (cds.lib command ignored).
+DEFINE UMC180Faraday    /cad_area/install/pdk/UMC/UMC180Faraday/fsa0m_a/2008Q3v1.2/50VT_GENERIC_IO/BackEnd/lef
+|
+irun: *W,DLCPTH (../cds.lib,35): cds.lib Invalid path '/cad_area/install/pdk/UMC/UMC180Faraday/fsa0m_a/2008Q3v1.2/50VT_GENERIC_IO/BackEnd/lef' (cds.lib command ignored).
+DEFINE FSA0M_A_50VT_GENERIC_IO /cad_area/install/pdk/UMC/UMC180Faraday/fsa0m_a/2008Q3v1.2/50VT_GENERIC_IO/FrontEnd/composer/FSA0M_A_50VT_GENERIC_IO
+|
+irun: *W,DLCPTH (../cds.lib,37): cds.lib Invalid path '/cad_area/install/pdk/UMC/UMC180Faraday/fsa0m_a/2008Q3v1.2/50VT_GENERIC_IO/FrontEnd/composer/FSA0M_A_50VT_GENERIC_IO' (cds.lib command ignored).
+DEFINE asap7_TechLib $PDK_DIR/cdslib/asap7_TechLib
+|
+irun: *W,DLCVAR (../cds.lib,42): cds.lib Invalid environment variable ''.
+DEFINE asap7ssc7p5t $PDK_DIR/asap7ssc7p5t_05
+|
+irun: *W,DLCVAR (../cds.lib,67): cds.lib Invalid environment variable ''.
+DEFINE 01FE20bec279 /home/01FE20BEC279/01FE20bec279
+|
+irun: *W,DLCPTH (../cds.lib,72): cds.lib Invalid path '/home/01FE20BEC279/01FE20bec279' (cds.lib command ignored).
+DEFINE 01fe20bec279 /home/01FE20BEC279/01fe20bec279
+|
+irun: *W,DLCLAP (../cds.lib,73): cds.lib Same file has different definitions for library 'library 01fe20bec279 from /home/01FE20BEC279/cds.lib line 73, redefines
+    library 01fe20bec279 from same file line 71 defined earlier.' (continuing with last specified path).
+DEFINE 01fe20bec279 /home/01FE20BEC279/01fe20bec279
+|
+irun: *W,DLCLAP (../cds.lib,74): cds.lib Same file has different definitions for library 'library 01fe20bec279 from /home/01FE20BEC279/cds.lib line 74, redefines
+    library 01fe20bec279 from same file line 73 defined earlier.' (continuing with last specified path).
+DEFINE 01fe20bec279 /home/01FE20BEC279/01fe20bec279
+|
+irun: *W,DLCLAP (../cds.lib,75): cds.lib Same file has different definitions for library 'library 01fe20bec279 from /home/01FE20BEC279/cds.lib line 75, redefines
+    library 01fe20bec279 from same file line 74 defined earlier.' (continuing with last specified path).
+INCLUDE $GF_PDK_HOME/DesignEnv/VirtuosoOA/setup/superstack.cds.lib
+|
+ncsim: *W,DLCVAR (../cds.lib,6): cds.lib Invalid environment variable ''.
+DEFINE CALIBRE_HOME     /cad_area/vlsi/tools/MENTOR/calibre/aoi_cal_2018.2_41.34
+|
+ncsim: *W,DLCPTH (../cds.lib,13): cds.lib Invalid path '/cad_area/vlsi/tools/MENTOR/calibre/aoi_cal_2018.2_41.34' (cds.lib command ignored).
+DEFINE UMC_18_CMOS /cad_area/install/pdk/Cadence_PDK/UMC180FDK/Cadence_IC6/G-9FD-MIXED_MODE_RFCMOS18-1.8V_3.3V-1P6M-MMC_UM180FDKMFC00000OA-FDK-Ver.A02_PB.zip_FILES/UM180FDKMFC00000OA_A02_DESIGNKIT.tar.gz_FILES/UM180FDKMFC00000OA_A02_PB.tar.gz_FILES/UMC_18_CMOS/
+|
+ncsim: *W,DLCLAP (../cds.lib,28): cds.lib Same file has different definitions for library 'library UMC_18_CMOS from /home/01FE20BEC279/cds.lib line 28, redefines
+    library UMC_18_CMOS from same file line 27 defined earlier.' (continuing with last specified path).
+DEFINE UMC180Faraday    /cad_area/install/pdk/UMC/UMC180Faraday
+|
+ncsim: *W,DLCPTH (../cds.lib,34): cds.lib Invalid path '/cad_area/install/pdk/UMC/UMC180Faraday' (cds.lib command ignored).
+DEFINE UMC180Faraday    /cad_area/install/pdk/UMC/UMC180Faraday/fsa0m_a/2008Q3v1.2/50VT_GENERIC_IO/BackEnd/lef
+|
+ncsim: *W,DLCPTH (../cds.lib,35): cds.lib Invalid path '/cad_area/install/pdk/UMC/UMC180Faraday/fsa0m_a/2008Q3v1.2/50VT_GENERIC_IO/BackEnd/lef' (cds.lib command ignored).
+DEFINE FSA0M_A_50VT_GENERIC_IO /cad_area/install/pdk/UMC/UMC180Faraday/fsa0m_a/2008Q3v1.2/50VT_GENERIC_IO/FrontEnd/composer/FSA0M_A_50VT_GENERIC_IO
+|
+ncsim: *W,DLCPTH (../cds.lib,37): cds.lib Invalid path '/cad_area/install/pdk/UMC/UMC180Faraday/fsa0m_a/2008Q3v1.2/50VT_GENERIC_IO/FrontEnd/composer/FSA0M_A_50VT_GENERIC_IO' (cds.lib command ignored).
+DEFINE asap7_TechLib $PDK_DIR/cdslib/asap7_TechLib
+|
+ncsim: *W,DLCVAR (../cds.lib,42): cds.lib Invalid environment variable ''.
+DEFINE asap7ssc7p5t $PDK_DIR/asap7ssc7p5t_05
+|
+ncsim: *W,DLCVAR (../cds.lib,67): cds.lib Invalid environment variable ''.
+DEFINE 01FE20bec279 /home/01FE20BEC279/01FE20bec279
+|
+ncsim: *W,DLCPTH (../cds.lib,72): cds.lib Invalid path '/home/01FE20BEC279/01FE20bec279' (cds.lib command ignored).
+DEFINE 01fe20bec279 /home/01FE20BEC279/01fe20bec279
+|
+ncsim: *W,DLCLAP (../cds.lib,73): cds.lib Same file has different definitions for library 'library 01fe20bec279 from /home/01FE20BEC279/cds.lib line 73, redefines
+    library 01fe20bec279 from same file line 71 defined earlier.' (continuing with last specified path).
+DEFINE 01fe20bec279 /home/01FE20BEC279/01fe20bec279
+|
+ncsim: *W,DLCLAP (../cds.lib,74): cds.lib Same file has different definitions for library 'library 01fe20bec279 from /home/01FE20BEC279/cds.lib line 74, redefines
+    library 01fe20bec279 from same file line 73 defined earlier.' (continuing with last specified path).
+DEFINE 01fe20bec279 /home/01FE20BEC279/01fe20bec279
+|
+ncsim: *W,DLCLAP (../cds.lib,75): cds.lib Same file has different definitions for library 'library 01fe20bec279 from /home/01FE20BEC279/cds.lib line 75, redefines
+    library 01fe20bec279 from same file line 74 defined earlier.' (continuing with last specified path).
+Loading snapshot worklib.t_a:v .................... Done
+ncsim> source /cad_area/install/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> run
+                   0Front= 0,Back= 0,slot= 0
+                  10Front= 1,Back= 0,slot= 0
+                  20Front= 1,Back= 1,slot= 8
+                  30Front= 0,Back= 0,slot= 0
+                  50Front= 1,Back= 0,slot= 0
+                  80Front= 1,Back= 1,slot=12
+                  90Front= 0,Back= 0,slot= 0
+Simulation complete via $finish(1) at time 200 NS + 0
+./t_a.v:40 	#200  $finish;
+ncsim> exit
+TOOL:	irun(64)	15.20-s051: Exiting on Apr 13, 2023 at 10:11:13 IST  (total: 00:00:04)
