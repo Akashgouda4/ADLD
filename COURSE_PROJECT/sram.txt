@@ -1,0 +1,31 @@
+// Code your design here
+// Dual Port RAM module design
+
+module dual_port_sram(
+  input [7:0] data_a, data_b, 
+  input [9:0] addr_a, addr_b, 
+  input we_a, we_b, 
+  input clk,
+  output reg [7:0] q_a, q_b 
+);
+  
+  reg [7:0] sram [0:1023]; //8*1K bit ram
+
+ 
+  always @ (posedge clk)
+    begin
+      if(we_a)
+        sram[addr_a] <= data_a;
+      else
+        q_a <= sram[addr_a]; 
+    end
+  
+  always @ (posedge clk)
+    begin
+      if(we_b)
+        sram[addr_b] <= data_b;
+      else
+        q_b <= sram[addr_b]; 
+    end
+  
+endmodule
